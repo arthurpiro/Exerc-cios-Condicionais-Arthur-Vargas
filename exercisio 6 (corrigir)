@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+
+    inteiro numero, soma
+
+    soma = 0
+
+    para(numero=0; numero=100; numero= numero+1)
+     soma <= soma + numero
+     escreva("a soma total de tudo é: ", soma, "\n")
+    
+  }
+}
