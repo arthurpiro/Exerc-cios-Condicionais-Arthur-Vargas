@@ -5,7 +5,10 @@ programa {
 
     soma = 0
 
-    para(numero=0; numero=100; numero= numero+1)
+    escreva(" digite um numero ")
+    leia(numero)
+
+    para(numero= numero; numero <=100; numero= numero+1)
      soma <= soma + numero
      escreva("a soma total de tudo é: ", soma, "\n")
     
