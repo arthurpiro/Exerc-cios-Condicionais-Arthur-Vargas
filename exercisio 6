@@ -9,7 +9,7 @@ programa {
     leia(numero)
 
     para(numero= numero; numero <=100; numero= numero+1)
-     soma <= soma + numero
+     soma = soma + numero
      escreva("a soma total de tudo é: ", soma, "\n")
     
   }
