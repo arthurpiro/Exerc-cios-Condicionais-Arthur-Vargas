@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+
+    inteiro numero, antecessor
+
+    escreva("digite um numero inteiro: \n")
+    leia(numero)
+
+    antecessor= 1
+
+    faca{
+    antecessor= antecessor * numero
+    numero= numero-1
+    }
+    enquanto(numero>0)
+
+    escreva("o fatorial é: ", antecessor)
+
+
+    
+  }
+}
