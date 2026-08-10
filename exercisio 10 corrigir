@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    inteiro valor
+
+    para(valor=0; valor<= 5;valor= +2)
+    valor= valor * 2
+    escreva("seu valor ao quadrado È:", valor)
+    
+  }
+}
