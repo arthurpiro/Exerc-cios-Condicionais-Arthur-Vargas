@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    inteiro num, numero
+
+    escreva("insira um numero:  ")
+    leia(num)
+
+    para(num=0; numero<=num ; num= +2)
+    escreva(num,"\n")
+    
+  }
+}
