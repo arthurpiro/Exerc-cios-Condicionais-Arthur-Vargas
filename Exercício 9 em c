@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int numero, antecessor;
+
+    printf("digite um numero inteiro: \n");
+    scanf("%d", &numero);
+
+    antecessor = 1;
+
+    do {
+        antecessor = antecessor * numero;
+        numero = numero - 1;
+    } while (numero > 0);
+
+    printf("o fatorial é: %d\n", antecessor);
+
+    return 0;
+}
