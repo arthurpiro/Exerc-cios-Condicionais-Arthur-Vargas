@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int numero, soma;
+
+    soma = 0;
+
+    printf("Digite um número inicial: ");
+    scanf("%d", &numero);
+
+    for (numero = numero; numero <= 100; numero++) {
+        soma = soma + numero;
+    }
+
+    printf("A soma total de tudo é: %d\n", soma);
+
+    return 0;
+}
